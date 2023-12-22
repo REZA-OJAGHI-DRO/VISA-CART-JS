@@ -3,13 +3,13 @@
 
 ![Screenshot (22)](https://github.com/REZA-OJAGHI-DRO/NIGHTLIFE-JS/assets/145910720/d7c05724-79e5-4213-a022-88fc4404fd2d)
 
-- [Demo Project]()
+- [Demo Project](https://reza-ojaghi-dro.github.io/VISA-CART-JS/)
  
 - Developed by reza ojaghi
 
 - Created - 2023-11-30
 
-- Technologies Used - Html , sass , bootstrap , js ,TEMPLATE
+- Technologies Used - Html , sass , bootstrap , js ,VISA CART
 
 - Hooks Used : useState 
 
