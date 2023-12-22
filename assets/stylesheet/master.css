@@ -1,0 +1,116 @@
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main {
+  height: 100vh;
+  padding-top: 15vh;
+  background-image: url(../img/3121725079.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+main > section {
+  height: 70vh;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.374);
+  position: relative;
+  border-radius: 5%;
+  box-shadow: 0 0 20px 1px black;
+}
+main > section > div:nth-of-type(1) {
+  height: 30vh;
+  position: absolute;
+  top: -20%;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+main > section > div:nth-of-type(1):hover {
+  transform: perspective(800px) rotateY(180deg);
+}
+main > section > div:nth-of-type(1) > div {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-image: url(../img/cP6Num.jpg);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px black;
+  transition: 1s;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(2) {
+  height: 6vh;
+  font-size: 1.5rem;
+  color: white;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) {
+  height: 8vh;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > article {
+  height: 100%;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > article > p:nth-of-type(1) {
+  height: 30%;
+  font-size: 0.8rem;
+  color: white;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(2) > article:nth-of-type(3) > article > p:nth-of-type(2) {
+  height: 70%;
+  font-size: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(1) {
+  transform: perspective(800px) translateZ(-1px) scaleX(-1);
+  background-color: black;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) {
+  height: 6vh;
+  background-color: black;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) {
+  height: 9vh;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > p:nth-of-type(1) {
+  height: 40%;
+  font-size: 1rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+main > section > div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(2) > p:nth-of-type(2) {
+  height: 60%;
+  font-size: 1.5rem;
+  color: black;
+  text-transform: uppercase;
+  background-color: white;
+}
+main > section > form {
+  height: 45vh;
+  position: absolute;
+  bottom: 50px;
+}
+main > section > form > label {
+  font-size: 1.5rem;
+  font-family: "Oswald", sans-serif;
+}
+main > section > form > label > input {
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+}
+main > section > form > input {
+  height: 6vh;
+  font-size: 1.5rem;
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  transition: 0.4;
+}
+main > section > form > input:hover {
+  background-color: rgb(2, 2, 202);
+}/*# sourceMappingURL=master.css.map */
